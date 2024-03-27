@@ -1,0 +1,75 @@
+*{
+	margin:0;
+	box-sizing:border-box;
+
+}
+.container{
+	max-width:1140px;
+	margin:0 auto;
+}
+h1{
+	text-align:center;
+	font-family: 'Hedvig Letters Serif', serif;
+}
+.card{
+		
+	padding:10px;
+	max-width:500px;
+	margin:10px 10px 10px 10px ;
+	border-radius:20px;
+	background-color:yellow;
+	border-width:15px;
+	border-style:inset;
+	border-color:lime;
+	display:inline-block;
+	text-align:justify;
+}
+
+
+.card1{
+		
+	padding:10px;
+	max-width:500px;
+	margin:10px 10px 10px 10px;
+	border-radius:20px;
+	background-color:#FFA600;
+	border-width:15px;
+	border-style:outset;
+	border-color:lime;
+	display:inline-block;
+	text-align:justify;
+}
+
+.card2{
+		
+	padding:10px;
+	max-width:500px;
+	margin:10px 10px 10px 10px;
+	border-radius:20px;
+	background-color:#F67280;
+	border-width:15px;
+	border-style:double;
+	border-color:lime;
+	display:inline-block;
+	text-align:justify;
+}
+
+.card3{
+		
+	padding:10px;
+	max-width:500px;
+	margin:10px 10px 10px 10px;
+	border-radius:20px;
+	background-color:red;
+	border-width:15px;
+	border-style:groove;
+	border-color:lime;
+	display:inline-block;
+	text-align:justify;
+}
+button{
+	align:center;
+}
+p{
+	font-family:'alice';
+}

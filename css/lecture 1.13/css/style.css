@@ -1,0 +1,12 @@
+*{
+	margine:0;
+	box-sizing:boarder-box;
+}
+
+.container {
+  height:1140px;
+  height:800px;
+  margin:0 auto;
+  padding:50px;
+  text-align:center;
+}

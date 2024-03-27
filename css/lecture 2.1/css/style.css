@@ -1,0 +1,120 @@
+*{
+	margin:0;
+  box-sizing:border-box;
+}
+.container {
+  height:100%;
+  margin:0 auto;
+  padding:50px;
+  text-align: center;
+}
+.main-box {
+	width:1525px;
+	height:600px;
+	background-color:blue;
+	margin:50px auto;
+	padding:95px;
+}
+
+.box1{
+	width:300px;
+	height:400px;
+	background-color:#F67F4A;
+	border-radius:30px;
+	float:left;
+	padding:20px;
+	margin:0 15px 0;
+	color:white;
+	text-align:justify;
+	font-family: 'Libre Baskerville';
+}
+
+
+.box2{
+	width:300px;
+	height:400px;
+	background-color:ED6D9C;
+	border-radius:30px;
+	float:left;
+	background-color:rgb(237 109 158 / 70%);
+	background-blend-mode:color;
+	padding:20px;
+	margin:0 15px 0;
+	color:white;
+	text-align:justify;
+	font-family: 'Libre Baskerville';
+}
+
+.box3{
+	width:300px;
+	height:400px;
+	background-color:#8773B8;
+	border-radius:30px;
+	float:left;
+	padding:20px;
+	margin:0 15px 0;
+	color:white;
+	text-align:justify;
+	font-family: 'Libre Baskerville';
+}
+
+.box4{
+	width:300px;
+	height:400px;
+	background-color:#5296ED;
+	border-radius:30px;
+	float:left;
+	padding:20px;
+	margin:0 15px 0;
+	color:white;
+	text-align:justify;
+	font-family: 'Libre Baskerville';
+}
+.box5{
+	width:300px;
+	height:400px;
+	background-color:#5296ED;
+	border-radius:30px;
+	float:left;
+	padding:20px;
+	margin:0 15px 0;
+	color:white;
+	text-align:justify;
+	font-family: 'Libre Baskerville';
+}
+
+.box6{
+	width:100%;
+	height:300px;
+	background-color:white;
+	float:left;
+	padding:15px;
+	margin:25px 0px  ;
+	color:white;
+	text-align:justify;
+	font-family: 'Libre Baskerville';
+}
+
+.box7{
+	width:100%;
+	height:300px;
+	background-color:white;
+	float:left;
+	padding:15px;
+	margin:25px 0px  ;
+	color:white;
+	text-align:justify;
+	font-family: 'Libre Baskerville';
+}
+
+.box8{
+	width:100%;
+	height:300px;
+	background-color:white;
+	float:left;
+	padding:15px;
+	margin:25px 0px  ;
+	color:white;
+	text-align:justify;
+	font-family: 'Libre Baskerville';
+}

@@ -1,0 +1,35 @@
+*{
+	margin:0;
+  box-sizing:border-box;
+}
+.container{
+	width:1140px;
+	margin:50px auto;
+}
+
+.chessbord{
+	 width:800px;
+	 height:800px;
+	 margin:50px auto;
+	 border:10px groove #1E1917 ;
+}
+.black{
+	width:calc(100% - 87.5%);
+	height:calc(100% - 87.5%);
+	background-color:#F16418;
+	float:left;
+	text-align:center;
+	font-size:70px;
+	
+}
+.white{
+	width:calc(100% - 87.5%);
+	height:calc(100% - 87.5%);
+	background-color:white;
+	float:left;
+	text-align:center;
+	font-size:70px;
+}
+.clear{
+	clear:both;
+}

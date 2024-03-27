@@ -1,0 +1,2579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>syndash-Admin template</title>
+    <!-- favicon -->
+    <link rel="icon" href="assests/img/logo-icon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="https://unpkg.com/css-pro-layout@1.1.0/dist/css/css-pro-layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- icon -->
+    <link rel="stylesheet" href="assests/css/all.min.css">
+    <!-- fonts -->
+    <link rel="stylesheet" href="assests/css/font.css">
+    <link rel="stylesheet" href="assests/css/side.css">
+    <link rel="stylesheet" href="assests/css/side.scss">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="assests/css/style.css">
+    <link rel="stylesheet" href="assests/css/media.css">
+</head>
+
+<body>
+    <div class="layout has-sidebar fixed-sidebar fixed-header">
+        <aside id="sidebar" class="sidebar break-point-lg has-bg-image">
+            <a id="btn-collapse" class="sidebar-collapser"><i class="ri-arrow-left-s-line"></i></a>
+            <div class="image-wrapper">
+                <img src="assets/images/sidebar-bg.jpg" alt="sidebar background" />
+            </div>
+            <div class="sidebar-layout">
+                <div class="sidebar-header">
+                    <div class="pro-sidebar-logo">
+                        <div class="container-logo">
+                            <img src="assests/img/logo-icon.png" width="60" height="60" />
+                        </div>
+                        <h5>syndash</h5>
+                    </div>
+                </div>
+                <div class="sidebar-content">
+                    <nav class="menu open-current-submenu">
+                        <ul>
+
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="fa-solid fa-house" style="color: #dc3545;"></i>
+                                    </span>
+                                    <span class="menu-title">Dashboard</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Analytics</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Sales</span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-header"><span>Web Apps</span></li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="fa-regular fa-envelope" style="color: #dc3545;"></i>
+                                    </span>
+                                    <span class="menu-title">Email</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="fa-regular fa-comments" style="color: #198754;"></i>
+                                    </span>
+                                    <span class="menu-title">Chat Box</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="fa-regular fa-file" style="color: #ffc107;"></i>
+                                    </span>
+                                    <span class="menu-title">File Manager</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <img src="assests/img/contact.png" alt="" srcset="">
+                                    </span>
+                                    <span class="menu-title">Contatcs</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="fa-solid fa-calendar-check" style="color: #198754;"></i>
+                                    </span>
+                                    <span class="menu-title">Todo List</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="fa-solid fa-file-invoice" style="color: #1f71ff;"></i>
+                                    </span>
+                                    <span class="menu-title">Invoice</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="fa-solid fa-calendar" style="color: #830101;"></i>
+                                    </span>
+                                    <span class="menu-title">Calender</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-header"><span>UI Elements</span></li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="fa-solid fa-ghost" style="color: #0355e2;"></i>
+                                    </span>
+                                    <span class="menu-title">Widgets</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="fa-solid fa-spa" style="color: #30d4e4;"></i>
+                                    </span>
+                                    <span class="menu-title">Components</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Alerts</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Badge</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Buttons</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Cards</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Carousal</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Acordians</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">List Group</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Media Objects</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Model</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Navs</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Navbar</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Pagination</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Popovers & Tooltips</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Progress</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Spinners</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Notifications</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Avtars & Chips</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="fa-solid fa-repeat" style="color: #ca9805;"></i>
+                                    </span>
+                                    <span class="menu-title">Content</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Grid Syestem</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Typography</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Text Utilties</span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="fa-solid fa-hand-holding-medical" style="color: #a24f30;"></i>
+                                    </span>
+                                    <span class="menu-title">Icons</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Line Icons</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Boxicons</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Feather Icons</span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-header"><span>Forms & Tables</span></li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="fa-regular fa-comment" style="color: #ff3030;"></i>
+                                    </span>
+                                    <span class="menu-title">Forms</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Form Elements</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Input Groups</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Forms Layouts</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Form Validation</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Form Wizard</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Text Editor</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">File Upload</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Date Pickers</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Select2</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="fa-solid fa-grip-vertical" style="color: #ff007c;"></i>
+                                    </span>
+                                    <span class="menu-title">Tables</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Basic Table</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Data Table</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Editable Table</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-header"><span>Pages</span></li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="fa-solid fa-lock" style="color: #4caf50;"></i>
+                                    </span>
+                                    <span class="menu-title">Authentication</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Login</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Register</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Forgot Password</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Reset Password</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Lock Screen</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="fa-solid fa-user" style="color: #ff8b01;"></i>
+                                    </span>
+                                    <span class="menu-title">User Profile</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="fa-solid fa-video" style="color: #a400ed;"></i>
+                                    </span>
+                                    <span class="menu-title">Timeline</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="fa-solid fa-triangle-exclamation" style="color: #009688;"></i>
+                                    </span>
+                                    <span class="menu-title">Errors</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">404 Error</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">500 Error</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Coming Soon</span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="fa-regular fa-circle-question" style="color: #03a9f4;"></i>
+                                    </span>
+                                    <span class="menu-title">FAQ</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="fa-solid fa-gem" style="color: #c37458;"></i>
+                                    </span>
+                                    <span class="menu-title">Pricing</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-header"><span>Charts & Maps</span></li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="fa-solid fa-chart-line" style="color: #265ed7;"></i>
+                                    </span>
+                                    <span class="menu-title">Charts</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Apex</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Chart js</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Highcharts</span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="fa-regular fa-map" style="color: #30d4e4;"></i>
+                                    </span>
+                                    <span class="menu-title">Maps</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Google Maps</span>
+                                            </a>
+                                        </li>
+
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Vector Maps</span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-header"><span>Others</span></li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="fa-solid fa-bars" style="color: #ca9805;"></i>
+                                    </span>
+                                    <span class="menu-title">Menu Levels</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+                                        <li class="menu-item">
+                                            <a href="#">
+                                                <i class="fa-solid fa-arrow-right m-r"></i>
+                                                <span class="menu-title">Level One</span>
+                                            </a>
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="fa-regular fa-folder" style="color: #a24f30;"></i>
+                                    </span>
+                                    <span class="menu-title">Documentation</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+
+
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="menu-item sub-menu">
+                                <a href="#">
+                                    <span class="menu-icon">
+                                        <i class="fa-solid fa-headset" style="color: #5f5f5f;"></i>
+                                    </span>
+                                    <span class="menu-title">Support</span>
+                                </a>
+                                <div class="sub-menu-list">
+                                    <ul>
+
+
+
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+
+        </aside>
+        <div id="overlay" class="overlay"></div>
+        <div class="layout">
+            <main class="content">
+                <div>
+                    <a id="btn-toggle" href="#" class="sidebar-toggler break-point-lg">
+                        <i class="ri-menu-line ri-xl "></i>
+                    </a>
+                </div>
+                <header>
+                    <div class="w-12 d-flex align-center ">
+
+                        <div class="w-10 w-lg-8 ">
+                            <div class="wrap">
+                                <div class="search">
+                                    <input type="text" class="searchTerm" placeholder="serach">
+                                    <button type="submit" class="searchButton">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-12 w-xl-4 d-flex align-center">
+                            <div class="w-1 w-xl-2 b-r"> <button class="js-toggle-fullscreen-btn toggle-fullscreen-btn"
+                                    aria-label="Enter fullscreen mode" hidden>
+                                    <svg class="toggle-fullscreen-svg" width="28" height="28" viewBox="-2 -2 28 28">
+                                        <g class="icon-fullscreen-enter">
+                                            <path d="M 2 9 v -7 h 7" />
+                                            <path d="M 22 9 v -7 h -7" />
+                                            <path d="M 22 15 v 7 h -7" />
+                                            <path d="M 2 15 v 7 h 7" />
+                                        </g>
+
+                                        <g class="icon-fullscreen-leave">
+                                            <path d="M 24 17 h -7 v 7" />
+                                            <path d="M 0 17 h 7 v 7" />
+                                            <path d="M 0 7 h 7 v -7" />
+                                            <path d="M 24 7 h -7 v -7" />
+                                        </g>
+                                    </svg>
+                                </button></div>
+
+                            <div class="w-8 w-xl-7 b-r">
+                                <div class="wrapper">
+                                    <div class="navbar">
+
+
+                                        <div class="navbar_right">
+                                            <div class="notifications">
+                                                <div class="icon_wrap"><i class="far fa-bell"></i></div>
+
+                                                <div class="notification_dd">
+                                                    <ul class="notification_ul">
+                                                        <li class="starbucks success">
+                                                            <div class="notify_icon">
+                                                                <span class="icon"></span>
+                                                            </div>
+                                                            <div class="notify_data">
+                                                                <div class="title">
+                                                                    Lorem, ipsum dolor.
+                                                                </div>
+                                                                <div class="sub_title">
+                                                                    Lorem ipsum dolor sit amet consectetur.
+                                                                </div>
+                                                            </div>
+                                                            <div class="notify_status">
+                                                                <p>Success</p>
+                                                            </div>
+                                                        </li>
+                                                        <li class="baskin_robbins failed">
+                                                            <div class="notify_icon">
+                                                                <span class="icon"></span>
+                                                            </div>
+                                                            <div class="notify_data">
+                                                                <div class="title">
+                                                                    Lorem, ipsum dolor.
+                                                                </div>
+                                                                <div class="sub_title">
+                                                                    Lorem ipsum dolor sit amet consectetur.
+                                                                </div>
+                                                            </div>
+                                                            <div class="notify_status">
+                                                                <p>Failed</p>
+                                                            </div>
+                                                        </li>
+                                                        <li class="mcd success">
+                                                            <div class="notify_icon">
+                                                                <span class="icon"></span>
+                                                            </div>
+                                                            <div class="notify_data">
+                                                                <div class="title">
+                                                                    Lorem, ipsum dolor.
+                                                                </div>
+                                                                <div class="sub_title">
+                                                                    Lorem ipsum dolor sit amet consectetur.
+                                                                </div>
+                                                            </div>
+                                                            <div class="notify_status">
+                                                                <p>Success</p>
+                                                            </div>
+                                                        </li>
+                                                        <li class="pizzahut failed">
+                                                            <div class="notify_icon">
+                                                                <span class="icon"></span>
+                                                            </div>
+                                                            <div class="notify_data">
+                                                                <div class="title">
+                                                                    Lorem, ipsum dolor.
+                                                                </div>
+                                                                <div class="sub_title">
+                                                                    Lorem ipsum dolor sit amet consectetur.
+                                                                </div>
+                                                            </div>
+                                                            <div class="notify_status">
+                                                                <p>Failed</p>
+                                                            </div>
+                                                        </li>
+                                                        <li class="kfc success">
+                                                            <div class="notify_icon">
+                                                                <span class="icon"></span>
+                                                            </div>
+                                                            <div class="notify_data">
+                                                                <div class="title">
+                                                                    Lorem, ipsum dolor.
+                                                                </div>
+                                                                <div class="sub_title">
+                                                                    Lorem ipsum dolor sit amet consectetur.
+                                                                </div>
+                                                            </div>
+                                                            <div class="notify_status">
+                                                                <p>Success</p>
+                                                            </div>
+                                                        </li>
+                                                        <li class="show_all">
+                                                            <p class="link">Show All Activities</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+                                            <div class="profile">
+                                                <div class="icon_wrap">
+                                                    <img src="assests/img/profile-img.png" alt="profile_pic">
+                                                    <span class="name">John Alex</span>
+                                                    <i class="fas fa-chevron-down"></i>
+                                                </div>
+
+                                                <div class="profile_dd">
+                                                    <ul class="profile_ul">
+                                                        <li class="profile_li"><a class="profile" href="#"><span
+                                                                    class="picon"><i class="fas fa-user-alt"></i>
+                                                                </span>Profile</a>
+                                                            <div class="btn">My Account</div>
+                                                        </li>
+                                                        <li><a class="address" href="#"><span class="picon"><i
+                                                                        class="fas fa-map-marker"></i></span>Address</a>
+                                                        </li>
+                                                        <li><a class="settings" href="#"><span class="picon"><i
+                                                                        class="fas fa-cog"></i></span>Settings</a></li>
+                                                        <li><a class="logout" href="#"><span class="picon"><i
+                                                                        class="fas fa-sign-out-alt"></i></span>Logout</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="popup">
+                                        <div class="shadow"></div>
+                                        <div class="inner_popup">
+                                            <div class="notification_dd">
+                                                <ul class="notification_ul">
+                                                    <li class="title">
+                                                        <p>All Notifications</p>
+                                                        <p class="close"><i class="fas fa-times" aria-hidden="true"></i>
+                                                        </p>
+                                                    </li>
+                                                    <li class="starbucks success">
+                                                        <div class="notify_icon">
+                                                            <span class="icon"></span>
+                                                        </div>
+                                                        <div class="notify_data">
+                                                            <div class="title">
+                                                                Lorem, ipsum dolor.
+                                                            </div>
+                                                            <div class="sub_title">
+                                                                Lorem ipsum dolor sit amet consectetur.
+                                                            </div>
+                                                        </div>
+                                                        <div class="notify_status">
+                                                            <p>Success</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="baskin_robbins failed">
+                                                        <div class="notify_icon">
+                                                            <span class="icon"></span>
+                                                        </div>
+                                                        <div class="notify_data">
+                                                            <div class="title">
+                                                                Lorem, ipsum dolor.
+                                                            </div>
+                                                            <div class="sub_title">
+                                                                Lorem ipsum dolor sit amet consectetur.
+                                                            </div>
+                                                        </div>
+                                                        <div class="notify_status">
+                                                            <p>Failed</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="mcd success">
+                                                        <div class="notify_icon">
+                                                            <span class="icon"></span>
+                                                        </div>
+                                                        <div class="notify_data">
+                                                            <div class="title">
+                                                                Lorem, ipsum dolor.
+                                                            </div>
+                                                            <div class="sub_title">
+                                                                Lorem ipsum dolor sit amet consectetur.
+                                                            </div>
+                                                        </div>
+                                                        <div class="notify_status">
+                                                            <p>Success</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="pizzahut failed">
+                                                        <div class="notify_icon">
+                                                            <span class="icon"></span>
+                                                        </div>
+                                                        <div class="notify_data">
+                                                            <div class="title">
+                                                                Lorem, ipsum dolor.
+                                                            </div>
+                                                            <div class="sub_title">
+                                                                Lorem ipsum dolor sit amet consectetur.
+                                                            </div>
+                                                        </div>
+                                                        <div class="notify_status">
+                                                            <p>Failed</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="kfc success">
+                                                        <div class="notify_icon">
+                                                            <span class="icon"></span>
+                                                        </div>
+                                                        <div class="notify_data">
+                                                            <div class="title">
+                                                                Lorem, ipsum dolor.
+                                                            </div>
+                                                            <div class="sub_title">
+                                                                Lorem ipsum dolor sit amet consectetur.
+                                                            </div>
+                                                        </div>
+                                                        <div class="notify_status">
+                                                            <p>Success</p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="w-3 d-flex">
+                                <div class="language">
+                                    <select name="lang" id="lang">
+                                        <option value="eng">English</option>
+                                        <option value="span">Spanish</option>
+                                        <option value="french">French</option>
+                                        <option value="hindi">Hindi</option>
+                                        <option value="Guj">Gujarati</option>
+                                        <option value="Germany">Germany</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </header>
+
+                <div class="main">
+                    <!-- area charts  -->
+                    <section>
+                        <div class="d-flex justify-center">
+                            <div class="w-12 w-md-6 w-lg-6 w-xl-4 p-t">
+                                <div class="session">
+                                    <p>Sessions</p>
+                                    <h2>501</h2>
+                                    <canvas id="myChart"></canvas>
+                                </div>
+                            </div>
+                            <div class="w-12 w-md-6 w-lg-6 w-xl-4 p-t">
+                                <div class="session">
+                                    <p>Visitors</p>
+                                    <h2>409</h2>
+                                    <canvas id="myChart1"></canvas>
+                                </div>
+                            </div>
+                            <div class="w-12 w-md-6 w-lg-6 w-xl-4 p-t">
+                                <div class="session">
+                                    <p>Page views</p>
+                                    <h2>2346</h2>
+                                    <canvas id="myChart2"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- visitors start -->
+                    <section>
+                        <div class="visitors d-flex">
+                            <div class="w-12 w-md-6 w-xl-8 p-t">
+                                <div class="visitors-chart">
+                                    <div class="data-type d-flex justify-between">
+                                        <p>New VS Returning Visitors</p>
+                                        <select id="DataType">
+                                            <option value="dataDaily">Daily</option>
+                                            <option value="dataWeekly">Weekly</option>
+                                            <option value="dataMonthly">Monthly</option>
+                                        </select>
+                                    </div>
+
+                                    <div id="app"></div>
+                                </div>
+                            </div>
+                            <div class="w-12  w-md-6 w-xl-4 p-t">
+                                <div class="pie">
+                                    <p>Devices of Visitors</p>
+                                    <div id="app1"></div>
+                                    <div class="series">
+                                        <ul class="d-flex">
+                                            <li class="d-flex justify-between align-center mobile" style="width:100%">
+                                                <p>Mobile</p>
+                                                <span>
+                                                    25%
+                                                </span>
+                                            </li>
+                                            <li class="d-flex justify-between align-center desktop" style="width:100%">
+                                                <p>Desktop</p>
+                                                <span>
+                                                    68%
+                                                </span>
+                                            </li>
+                                            <li class="d-flex justify-between align-center tablet" style="width:100%">
+                                                <p>Tablet</p>
+                                                <span>
+                                                    10%
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="d-flex">
+
+                            <div class="w-12 w-xl-6 p-t">
+                                <div class="rate">
+                                    <div class="w-12 d-flex">
+                                        <div class="w-4  rate1">
+                                            <div class="time">
+                                                <a href=""><i class="fa-regular fa-clock"></i></a>
+                                                <h4>2m 28s</h4>
+                                                <p>Avg. Time on Site</p>
+                                            </div>
+                                        </div>
+                                        <div class="w-4 rate2">
+                                            <a href=""><i class="fa-regular fa-bookmark"></i></a>
+                                            <h4>4.68</h4>
+                                            <p>Pages/Session</p>
+                                        </div>
+                                        <div class="w-4 rate3">
+                                            <a href=""><i class="fa-regular fa-lightbulb"></i></a>
+                                            <h4>78%</h4>
+                                            <p>New Sessions</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="w-12 d-flex">
+                                        <div class="w-4  rate4">
+                                            <a href=""><i class="fa-solid fa-chart-line"></i></a>
+                                            <h4>23.4%</h4>
+                                            <p>Bounce Rate</p>
+                                        </div>
+                                        <div class="w-4 rate5">
+                                            <a href=""><i class="fa-solid fa-user-group"></i></a>
+                                            <h4>4,286</h4>
+                                            <p>New Users</p>
+                                        </div>
+                                        <div class="w-4 rate6">
+                                            <a href=""><i class="fa-solid fa-cloud-arrow-down"></i></a>
+                                            <h4>78%</h4>
+                                            <p>Downloads</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-12 w-xl-6 p-t">
+                                <div class="social">
+                                    <div class="w-12 d-flex justify-between">
+                                        <div class="media">
+                                            <h5>
+                                                Social Media Traffic
+                                            </h5>
+                                        </div>
+                                        <div class="visits d-flex align-center">
+                                            <span>Total Visits:</span>
+                                            <span class="numvisit"> 874</span>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="py-5"></div>
+                                    <div class="option">
+                                        <div class="w-12">
+                                            <div class="dashboard">
+                                                <ul>
+                                                    <li class="youtube d-flex justify-between align-center">
+                                                        <div class="icon d-flex align-center">
+                                                            <a href=""><i class="fa-brands fa-youtube"></i></a>
+                                                            <h6>YouTube</h6>
+                                                        </div>
+                                                        <div class="num">
+                                                            <span>298</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="w-12">
+                                            <div class="dashboard">
+                                                <ul>
+                                                    <li class="facebook d-flex justify-between align-center">
+                                                        <div class="icon d-flex align-center">
+                                                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                                            <h6>Facebook</h6>
+                                                        </div>
+                                                        <div class="num">
+                                                            <span>324</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="w-12">
+                                            <div class="dashboard">
+                                                <ul>
+                                                    <li class="linkdlan d-flex justify-between align-center">
+                                                        <div class="icon d-flex align-center">
+                                                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                                            <h6>Linkdlan</h6>
+                                                        </div>
+                                                        <div class="num">
+                                                            <span>127</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="w-12">
+                                            <div class="dashboard">
+                                                <ul>
+                                                    <li class="twiter d-flex justify-between align-center">
+                                                        <div class="icon d-flex align-center">
+                                                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                                            <h6>Twitter</h6>
+                                                        </div>
+                                                        <div class="num">
+                                                            <span>325</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="w-12">
+                                            <div class="dashboard">
+                                                <ul>
+                                                    <li class="tumbir d-flex justify-between align-center">
+                                                        <div class="icon d-flex align-center">
+                                                            <a href=""><i class="fa-brands fa-tumblr"></i></a>
+                                                            <h6>Tumbir</h6>
+                                                        </div>
+                                                        <div class="num">
+                                                            <span>287</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="w-12">
+                                            <div class="dashboard">
+                                                <ul>
+                                                    <li class="driible d-flex justify-between align-center">
+                                                        <div class="icon d-flex align-center">
+                                                            <a href=""><i class="fa-brands fa-dribbble"></i></a>
+                                                            <h6>Drrible</h6>
+                                                        </div>
+                                                        <div class="num">
+                                                            <span>154</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="d-flex">
+                        <div class="w-12 w-xl-8 p-t">
+                            <div class="map">
+                                <div class="map-head">
+                                    <h5>Geographic</h5>
+                                </div>
+                                <hr>
+                                <div id="chartDiv" style=" margin:auto;">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-12 w-xl-4 p-t">
+                            <div class="countries">
+                                <div class="w-12 d-flex justify-between">
+                                    <div class="media">
+                                        <h5>
+                                            Top countries
+                                        </h5>
+                                    </div>
+                                    <div class="visits d-flex align-center">
+                                        <span>Total Visits:</span>
+                                        <span class="numvisit"> 9587</span>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="py-5"></div>
+                                <div class="w-12">
+                                    <div class="option">
+                                        <div class="w-12">
+                                            <div class="top">
+                                                <ul>
+                                                    <li class="india d-flex justify-between align-center">
+                                                        <div class="icon d-flex align-center">
+                                                            <a href=""><img src="assests/img/india.png" alt=""></a>
+                                                            <h6>India</h6>
+                                                        </div>
+                                                        <div class="num">
+                                                            <span>647</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="w-12">
+                                            <div class="top">
+                                                <ul>
+                                                    <li class="usa d-flex justify-between align-center">
+                                                        <div class="icon d-flex align-center">
+                                                            <a href=""><img src="assests/img/united-states.png"
+                                                                    alt=""></a>
+                                                            <h6>
+                                                                United States</h6>
+                                                        </div>
+                                                        <div class="num">
+                                                            <span>435</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="w-12">
+                                            <div class="top">
+                                                <ul>
+                                                    <li class="vietnam d-flex justify-between align-center">
+                                                        <div class="icon d-flex align-center">
+                                                            <a href=""><img src="assests/img/vietnam.png" alt=""></a>
+                                                            <h6>Vietnam</h6>
+                                                        </div>
+                                                        <div class="num">
+                                                            <span>287</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="w-12">
+                                            <div class="top">
+                                                <ul>
+                                                    <li class="aus d-flex justify-between align-center">
+                                                        <div class="icon d-flex align-center">
+                                                            <a href=""><img src="assests/img/australia.png" alt=""></a>
+                                                            <h6>
+                                                                Australia</h6>
+                                                        </div>
+                                                        <div class="num">
+                                                            <span>432</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="w-12">
+                                            <div class="top">
+                                                <ul>
+                                                    <li class="angola d-flex justify-between align-center">
+                                                        <div class="icon d-flex align-center">
+                                                            <a href=""><img src="assests/img/angola.png" alt=""></a>
+                                                            <h6>
+                                                                Angola</h6>
+                                                        </div>
+                                                        <div class="num">
+                                                            <span>345</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="w-12">
+                                            <div class="top">
+                                                <ul>
+                                                    <li class="Aland Islands d-flex justify-between align-center">
+                                                        <div class="icon d-flex align-center">
+                                                            <a href=""><img src="assests/img/aland-islands.png"
+                                                                    alt=""></a>
+                                                            <h6>
+                                                                Aland Islands</h6>
+                                                        </div>
+                                                        <div class="num">
+                                                            <span>134</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="w-12">
+                                            <div class="top">
+                                                <ul>
+                                                    <li class="Argentina d-flex justify-between align-center">
+                                                        <div class="icon d-flex align-center">
+                                                            <a href=""><img src="assests/img/argentina.png" alt=""></a>
+                                                            <h6>
+                                                                Argentina</h6>
+                                                        </div>
+                                                        <div class="num">
+                                                            <span>147</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="w-12">
+                                            <div class="top">
+                                                <ul>
+                                                    <li class=" Belgium d-flex justify-between align-center">
+                                                        <div class="icon d-flex align-center">
+                                                            <a href=""><img src="assests/img/belgium.png" alt=""></a>
+                                                            <h6>
+                                                                Belgium</h6>
+                                                        </div>
+                                                        <div class="num">
+                                                            <span>210</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </section>
+                    <section class="d-flex justify-center">
+                        <div class="w-12 w-md-6 w-xl-4">
+                            <div class="state">
+                                <h5 class="b-b">Browser Statistics </h5>
+                                <div class="d-flex align-center justify-between b-b py-t-5">
+                                    <div class="browser">
+                                        <div class="br-img d-flex align-center">
+                                            <a href=""><img src="assests/img/chrome.png" alt=""></a>
+                                            <div class="br-text">
+                                                <h6>587</h6>
+                                                <p>Chrome</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="b-num">
+                                        <span>24.3%</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-center justify-between b-b py-t-5">
+                                    <div class="browser">
+                                        <div class="br-img d-flex align-center">
+                                            <a href=""><img src="assests/img/firefox.webp" alt=""></a>
+                                            <div class="br-text">
+                                                <h6>358</h6>
+                                                <p>Firefox</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="b-num">
+                                        <span>12.3%</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-center justify-between b-b py-t-5">
+                                    <div class="browser">
+                                        <div class="br-img d-flex align-center">
+                                            <a href=""><img src="assests/img/edge.jfif" alt=""></a>
+                                            <div class="br-text">
+                                                <h6>867</h6>
+                                                <p>Edge</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="b-num">
+                                        <span>24.3%</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-center justify-between b-b py-t-5">
+                                    <div class="browser">
+                                        <div class="br-img d-flex align-center">
+                                            <a href=""><img src="assests/img/opera.jfif" alt=""></a>
+                                            <div class="br-text">
+                                                <h6>752</h6>
+                                                <p>Opera</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="b-num">
+                                        <span>27.3%</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-center justify-between py-t-5">
+                                    <div class="browser">
+                                        <div class="br-img d-flex align-center">
+                                            <a href=""><img src="assests/img/safari.jfif" alt=""></a>
+                                            <div class="br-text">
+                                                <h6>586</h6>
+                                                <p>Safari</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="b-num">
+                                        <span>14.5%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-12 w-md-6 w-xl-4">
+                            <div class="sources">
+                                <h5 class="b-b">Browser Statistics </h5>
+                                <div class="table ">
+                                    <table cellpadding="" cellspacing="">
+                                        <tr>
+                                            <th>
+                                                Source
+                                            </th>
+                                            <th>Visitors</th>
+                                            <th>Bounce Rate</th>
+                                        </tr>
+                                        <tr class="black" colspan="2">
+                                            <td>(direct)</td>
+                                            <td>56</td>
+                                            <td>10%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>google</td>
+                                            <td>29</td>
+                                            <td>12%</td>
+                                        </tr>
+                                        <tr class="black">
+                                            <td>linkedin.com</td>
+                                            <td>68</td>
+                                            <td>33%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>bing</td>
+                                            <td>14</td>
+                                            <td>24%</td>
+                                        </tr>
+                                        <tr class="black">
+                                            <td>facebook.com</td>
+                                            <td>87</td>
+                                            <td>22%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>twitter.com</td>
+                                            <td>88</td>
+                                            <td>43%</td>
+                                        </tr>
+                                        <tr class="black">
+                                            <td>other</td>
+                                            <td>98</td>
+                                            <td>27%</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="w-12 w-md-6 w-xl-4">
+                            <div class="pie-chart">
+                                <h5 class="b-b">Visitors By Gender</h5>
+                                <div id="app2"></div>
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- views -->
+                    <section class="view-bar">
+                        <div class="view">
+                            <div class="w-12">
+                                <h5>Top pages by views </h5>
+                                <hr>
+                            </div>
+                            <div class="w-12">
+
+                                <table cellspacing="15" border="0">
+                                    <tr>
+                                        <td>#</td>
+                                        <td>Title</td>
+                                        <td>Views</td>
+                                        <td>Avg. Time</td>
+                                        <td>Bounce Rate</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>1.</td>
+                                        <td><a
+                                                href="https://themeforest.net/item/synadmin-bootstrap4-admin-template/29014766">https://themeforest.net/item/synadmin-bootstrap4-admin-template/29014766</a>
+                                        </td>
+                                        <td>660</td>
+                                        <td>55s</td>
+                                        <td>3.6%</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>2.</td>
+                                        <td><a
+                                                href="https://codervent.com/wipe-admin-dark/dashboard/v3">https://codervent.com/wipe-admin-dark/dashboard/v3</a>
+                                        </td>
+                                        <td>352</td>
+                                        <td>16s</td>
+                                        <td>8.4%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3.</td>
+                                        <td><a
+                                                href="https://themeforest.net/item/dashtreme-multipurpose-bootstrap4-admin-template/23059455">https://themeforest.net/item/dashtreme-multipurpose-bootstrap4-admin-template/23059455</a>
+                                        </td>
+                                        <td>101</td>
+                                        <td>10s</td>
+                                        <td>6.7%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4.</td>
+                                        <td><a
+                                                href="https://themeforest.net/item/rukada-responsive-bootstrap-4-admin-template/22820477">https://themeforest.net/item/rukada-responsive-bootstrap-4-admin-template/22820477</a>
+                                        </td>
+                                        <td>95</td>
+                                        <td>57s</td>
+                                        <td>5.2%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5.</td>
+                                        <td><a
+                                                href="https://codervent.com/rocker-angular/dashboard/v1">https://codervent.com/rocker-angular/dashboard/v1</a>
+                                        </td>
+                                        <td>102</td>
+                                        <td>45s</td>
+                                        <td>7.2%</td>
+                                    </tr>
+
+                                </table>
+
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+            </main>
+            <footer>
+                <p>Syndash @2020 | Developed By : <a href="https://themeforest.net/user/codervent">codervent</a>
+                </p>
+
+            </footer>
+            <button id="backToTopButton"><i class="fa-solid fa-arrow-up" style="color: #ffffff;"></i></button>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script>
+        const ANIMATION_DURATION = 300;
+
+        const SIDEBAR_EL = document.getElementById("sidebar");
+
+        const SUB_MENU_ELS = document.querySelectorAll(
+            ".menu > ul > .menu-item.sub-menu"
+        );
+
+        const FIRST_SUB_MENUS_BTN = document.querySelectorAll(
+            ".menu > ul > .menu-item.sub-menu > a"
+        );
+
+        const INNER_SUB_MENUS_BTN = document.querySelectorAll(
+            ".menu > ul > .menu-item.sub-menu .menu-item.sub-menu > a"
+        );
+
+        class PopperObject {
+            instance = null;
+            reference = null;
+            popperTarget = null;
+
+            constructor(reference, popperTarget) {
+                this.init(reference, popperTarget);
+            }
+
+            init(reference, popperTarget) {
+                this.reference = reference;
+                this.popperTarget = popperTarget;
+                this.instance = Popper.createPopper(this.reference, this.popperTarget, {
+                    placement: "right",
+                    strategy: "fixed",
+                    resize: true,
+                    modifiers: [
+                        {
+                            name: "computeStyles",
+                            options: {
+                                adaptive: false
+                            }
+                        },
+                        {
+                            name: "flip",
+                            options: {
+                                fallbackPlacements: ["left", "right"]
+                            }
+                        }
+                    ]
+                });
+
+                document.addEventListener(
+                    "click",
+                    (e) => this.clicker(e, this.popperTarget, this.reference),
+                    false
+                );
+
+                const ro = new ResizeObserver(() => {
+                    this.instance.update();
+                });
+
+                ro.observe(this.popperTarget);
+                ro.observe(this.reference);
+            }
+
+            clicker(event, popperTarget, reference) {
+                if (
+                    SIDEBAR_EL.classList.contains("collapsed") &&
+                    !popperTarget.contains(event.target) &&
+                    !reference.contains(event.target)
+                ) {
+                    this.hide();
+                }
+            }
+
+            hide() {
+                this.instance.state.elements.popper.style.visibility = "hidden";
+            }
+        }
+
+        class Poppers {
+            subMenuPoppers = [];
+
+            constructor() {
+                this.init();
+            }
+
+            init() {
+                SUB_MENU_ELS.forEach((element) => {
+                    this.subMenuPoppers.push(
+                        new PopperObject(element, element.lastElementChild)
+                    );
+                    this.closePoppers();
+                });
+            }
+
+            togglePopper(target) {
+                if (window.getComputedStyle(target).visibility === "hidden")
+                    target.style.visibility = "visible";
+                else target.style.visibility = "hidden";
+            }
+
+            updatePoppers() {
+                this.subMenuPoppers.forEach((element) => {
+                    element.instance.state.elements.popper.style.display = "none";
+                    element.instance.update();
+                });
+            }
+
+            closePoppers() {
+                this.subMenuPoppers.forEach((element) => {
+                    element.hide();
+                });
+            }
+        }
+
+        const slideUp = (target, duration = ANIMATION_DURATION) => {
+            const { parentElement } = target;
+            parentElement.classList.remove("open");
+            target.style.transitionProperty = "height, margin, padding";
+            target.style.transitionDuration = `${duration}ms`;
+            target.style.boxSizing = "border-box";
+            target.style.height = `${target.offsetHeight}px`;
+            target.offsetHeight;
+            target.style.overflow = "hidden";
+            target.style.height = 0;
+            target.style.paddingTop = 0;
+            target.style.paddingBottom = 0;
+            target.style.marginTop = 0;
+            target.style.marginBottom = 0;
+            window.setTimeout(() => {
+                target.style.display = "none";
+                target.style.removeProperty("height");
+                target.style.removeProperty("padding-top");
+                target.style.removeProperty("padding-bottom");
+                target.style.removeProperty("margin-top");
+                target.style.removeProperty("margin-bottom");
+                target.style.removeProperty("overflow");
+                target.style.removeProperty("transition-duration");
+                target.style.removeProperty("transition-property");
+            }, duration);
+        };
+        const slideDown = (target, duration = ANIMATION_DURATION) => {
+            const { parentElement } = target;
+            parentElement.classList.add("open");
+            target.style.removeProperty("display");
+            let { display } = window.getComputedStyle(target);
+            if (display === "none") display = "block";
+            target.style.display = display;
+            const height = target.offsetHeight;
+            target.style.overflow = "hidden";
+            target.style.height = 0;
+            target.style.paddingTop = 0;
+            target.style.paddingBottom = 0;
+            target.style.marginTop = 0;
+            target.style.marginBottom = 0;
+            target.offsetHeight;
+            target.style.boxSizing = "border-box";
+            target.style.transitionProperty = "height, margin, padding";
+            target.style.transitionDuration = `${duration}ms`;
+            target.style.height = `${height}px`;
+            target.style.removeProperty("padding-top");
+            target.style.removeProperty("padding-bottom");
+            target.style.removeProperty("margin-top");
+            target.style.removeProperty("margin-bottom");
+            window.setTimeout(() => {
+                target.style.removeProperty("height");
+                target.style.removeProperty("overflow");
+                target.style.removeProperty("transition-duration");
+                target.style.removeProperty("transition-property");
+            }, duration);
+        };
+
+        const slideToggle = (target, duration = ANIMATION_DURATION) => {
+            if (window.getComputedStyle(target).display === "none")
+                return slideDown(target, duration);
+            return slideUp(target, duration);
+        };
+
+        const PoppersInstance = new Poppers();
+
+        /**
+         * wait for the current animation to finish and update poppers position
+         */
+        const updatePoppersTimeout = () => {
+            setTimeout(() => {
+                PoppersInstance.updatePoppers();
+            }, ANIMATION_DURATION);
+        };
+
+        /**
+         * sidebar collapse handler
+         */
+        document.getElementById("btn-collapse").addEventListener("click", () => {
+            SIDEBAR_EL.classList.toggle("collapsed");
+            PoppersInstance.closePoppers();
+            if (SIDEBAR_EL.classList.contains("collapsed"))
+                FIRST_SUB_MENUS_BTN.forEach((element) => {
+                    element.parentElement.classList.remove("open");
+                });
+
+            updatePoppersTimeout();
+        });
+
+        /**
+         * sidebar toggle handler (on break point )
+         */
+        document.getElementById("btn-toggle").addEventListener("click", () => {
+            SIDEBAR_EL.classList.toggle("toggled");
+
+            updatePoppersTimeout();
+        });
+
+        /**
+         * toggle sidebar on overlay click
+         */
+        document.getElementById("overlay").addEventListener("click", () => {
+            SIDEBAR_EL.classList.toggle("toggled");
+        });
+
+        const defaultOpenMenus = document.querySelectorAll(".menu-item.sub-menu.open");
+
+        defaultOpenMenus.forEach((element) => {
+            element.lastElementChild.style.display = "block";
+        });
+
+        /**
+         * handle top level submenu click
+         */
+        FIRST_SUB_MENUS_BTN.forEach((element) => {
+            element.addEventListener("click", () => {
+                if (SIDEBAR_EL.classList.contains("collapsed"))
+                    PoppersInstance.togglePopper(element.nextElementSibling);
+                else {
+                    const parentMenu = element.closest(".menu.open-current-submenu");
+                    if (parentMenu)
+                        parentMenu
+                            .querySelectorAll(":scope > ul > .menu-item.sub-menu > a")
+                            .forEach(
+                                (el) =>
+                                    window.getComputedStyle(el.nextElementSibling).display !==
+                                    "none" && slideUp(el.nextElementSibling)
+                            );
+                    slideToggle(element.nextElementSibling);
+                }
+            });
+        });
+
+        /**
+         * handle inner submenu click
+         */
+        INNER_SUB_MENUS_BTN.forEach((element) => {
+            element.addEventListener("click", () => {
+                slideToggle(element.nextElementSibling);
+            });
+        });
+
+    </script>
+    <script>
+
+        if (document.fullscreenEnabled || document.webkitFullscreenEnabled) {
+            const toggleBtn = document.querySelector('.js-toggle-fullscreen-btn');
+
+            const styleEl = document.createElement('link');
+            styleEl.setAttribute('rel', 'stylesheet');
+            styleEl.setAttribute('href', 'https://codepen.io/tiggr/pen/poJoLyW.css');
+            styleEl.addEventListener('load', function () {
+                toggleBtn.hidden = false;
+            });
+            document.head.appendChild(styleEl);
+
+            toggleBtn.addEventListener('click', function () {
+                if (document.fullscreen) {
+                    document.exitFullscreen();
+                } else if (document.webkitFullscreenElement) {
+                    document.webkitCancelFullScreen()
+                } else if (document.documentElement.requestFullscreen) {
+                    document.documentElement.requestFullscreen();
+                } else {
+                    document.documentElement.webkitRequestFullScreen();
+                }
+            });
+
+            document.addEventListener('fullscreenchange', handleFullscreen);
+            document.addEventListener('webkitfullscreenchange', handleFullscreen);
+
+
+            function handleFullscreen() {
+                if (document.fullscreen || document.webkitFullscreenElement) {
+                    toggleBtn.classList.add('on');
+                    toggleBtn.setAttribute('aria-label', 'Exit fullscreen mode');
+                } else {
+                    toggleBtn.classList.remove('on');
+                    toggleBtn.setAttribute('aria-label', 'Enter fullscreen mode');
+                }
+            }
+        }
+
+    </script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script>
+        var ctx = document.getElementById('myChart').getContext("2d");
+
+        var gradientStroke = ctx.createLinearGradient(500, 0, 100, 0);
+        gradientStroke.addColorStop(0, '#673ab7');
+        gradientStroke.addColorStop(1, '#673ab7');
+
+        var gradientFill = ctx.createLinearGradient(500, 0, 100, 0);
+        gradientFill.addColorStop(0, "#ded5ee");
+        gradientFill.addColorStop(1, "#ded5ee");
+
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL"],
+                datasets: [{
+                    label: "Data",
+                    borderColor: gradientStroke,
+                    pointBorderColor: gradientStroke,
+                    pointBackgroundColor: gradientStroke,
+                    pointHoverBackgroundColor: gradientStroke,
+                    pointHoverBorderColor: gradientStroke,
+                    pointBorderWidth: 10,
+                    pointHoverRadius: 10,
+                    pointHoverBorderWidth: 1,
+                    pointRadius: 3,
+                    fill: true,
+                    backgroundColor: gradientFill,
+                    borderWidth: 4,
+                    data: [0, 80, 140, 90, 130, 70, 160]
+                }]
+            },
+            options: {
+                legend: {
+                    position: ""
+                },
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            fontColor: "transparent",
+                            fontStyle: "bold",
+                            beginAtZero: true,
+                            maxTicksLimit: 5,
+                            padding: 20
+                        },
+                        gridLines: {
+                            drawTicks: false,
+                            display: false
+                        }
+
+                    }],
+                    xAxes: [{
+                        gridLines: {
+                            zeroLineColor: "transparent"
+                        },
+                        ticks: {
+                            padding: 20,
+                            fontColor: "transparent",
+                            fontStyle: "bold"
+                        },
+                        gridLines: {
+                            drawTicks: false,
+                            display: false
+                        }
+
+                    }]
+                }
+            }
+        });
+    </script>
+    <script>
+        var ctx = document.getElementById('myChart1').getContext("2d");
+
+        var gradientStroke = ctx.createLinearGradient(500, 0, 100, 0);
+        gradientStroke.addColorStop(0, '#2caa29');
+        gradientStroke.addColorStop(1, '#2caa29');
+
+        var gradientFill = ctx.createLinearGradient(500, 0, 100, 0);
+        gradientFill.addColorStop(0, "#c7e8c5");
+        gradientFill.addColorStop(1, "#c7e8c5");
+
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL"],
+                datasets: [{
+                    label: "Data",
+                    borderColor: gradientStroke,
+                    pointBorderColor: gradientStroke,
+                    pointBackgroundColor: gradientStroke,
+                    pointHoverBackgroundColor: gradientStroke,
+                    pointHoverBorderColor: gradientStroke,
+                    pointBorderWidth: 10,
+                    pointHoverRadius: 10,
+                    pointHoverBorderWidth: 1,
+                    pointRadius: 3,
+                    fill: true,
+                    backgroundColor: gradientFill,
+                    borderWidth: 4,
+                    data: [0, 80, 140, 90, 130, 70, 160]
+                }]
+            },
+            options: {
+                legend: {
+                    position: ""
+                },
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            fontColor: "transparent",
+                            fontStyle: "bold",
+                            beginAtZero: true,
+                            maxTicksLimit: 5,
+                            padding: 20
+                        },
+                        gridLines: {
+                            drawTicks: false,
+                            display: false
+                        }
+
+                    }],
+                    xAxes: [{
+                        gridLines: {
+                            zeroLineColor: "transparent"
+                        },
+                        ticks: {
+                            padding: 20,
+                            fontColor: "transparent",
+                            fontStyle: "bold"
+                        },
+                        gridLines: {
+                            drawTicks: false,
+                            display: false
+                        }
+
+                    }]
+                }
+            }
+        });
+    </script>
+    <script>
+        var ctx = document.getElementById('myChart2').getContext("2d");
+
+        var gradientStroke = ctx.createLinearGradient(500, 0, 100, 0);
+        gradientStroke.addColorStop(0, '#f12d6a');
+        gradientStroke.addColorStop(1, '#f12d6a');
+
+        var gradientFill = ctx.createLinearGradient(500, 0, 100, 0);
+        gradientFill.addColorStop(0, "#fbbcd0");
+        gradientFill.addColorStop(1, "#fbbcd0");
+
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL"],
+                datasets: [{
+                    label: "Data",
+                    borderColor: gradientStroke,
+                    pointBorderColor: gradientStroke,
+                    pointBackgroundColor: gradientStroke,
+                    pointHoverBackgroundColor: gradientStroke,
+                    pointHoverBorderColor: gradientStroke,
+                    pointBorderWidth: 10,
+                    pointHoverRadius: 10,
+                    pointHoverBorderWidth: 1,
+                    pointRadius: 3,
+                    fill: true,
+                    backgroundColor: gradientFill,
+                    borderWidth: 4,
+                    data: [0, 80, 140, 90, 130, 70, 160]
+                }]
+            },
+            options: {
+                legend: {
+                    position: ""
+                },
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            fontColor: "transparent",
+                            fontStyle: "bold",
+                            beginAtZero: true,
+                            maxTicksLimit: 5,
+                            padding: 20
+                        },
+                        gridLines: {
+                            drawTicks: false,
+                            display: false
+                        }
+
+                    }],
+                    xAxes: [{
+                        gridLines: {
+                            zeroLineColor: "transparent"
+                        },
+                        ticks: {
+                            padding: 20,
+                            fontColor: "transparent",
+                            fontStyle: "bold"
+                        },
+                        gridLines: {
+                            drawTicks: false,
+                            display: false
+                        }
+
+                    }]
+                }
+            }
+        });
+    </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".notification-drop .item").on('click', function () {
+                $(this).find('ul').toggle();
+            });
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/react@16.12/umd/react.production.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/react-dom@16.12/umd/react-dom.production.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prop-types@15.7.2/prop-types.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://cdn.jsdelivr.net/npm/react-apexcharts@1.3.6/dist/react-apexcharts.iife.min.js"></script>
+    <script>
+        // Replace Math.random() with a pseudo-random number generator to get reproducible results in e2e tests
+        // Based on https://gist.github.com/blixt/f17b47c62508be59987b
+        var _seed = 42;
+        Math.random = function () {
+            _seed = _seed * 16807 % 2147483647;
+            return (_seed - 1) / 2147483646;
+        };
+    </script>
+    <script type="text/babel">
+        class ApexChart extends React.Component {
+            constructor(props) {
+                super(props);
+
+                this.state = {
+
+                    series: [
+                        {
+                            data: [
+                                {
+                                    x: 'Jan',
+                                    y: [2800, 4500]
+                                },
+                                {
+                                    x: 'Feb',
+                                    y: [3200, 4100]
+                                },
+                                {
+                                    x: 'March',
+                                    y: [2950, 7800]
+                                },
+                                {
+                                    x: 'April',
+                                    y: [3000, 4600]
+                                },
+                                {
+                                    x: 'May',
+                                    y: [3500, 4100]
+                                },
+                                {
+                                    x: 'Jun',
+                                    y: [4500, 6500]
+                                },
+                                {
+                                    x: 'July',
+                                    y: [4100, 5600]
+                                }
+                                ,
+                                {
+                                    x: 'Aug',
+                                    y: [4100, 5600]
+                                }
+                                ,
+                                {
+                                    x: 'Sep',
+                                    y: [4100, 5600]
+                                }
+                                ,
+                                {
+                                    x: 'Oct',
+                                    y: [4100, 5600]
+                                }
+                                ,
+                                {
+                                    x: 'Nov',
+                                    y: [4100, 5600]
+                                }
+                                ,
+                                {
+                                    x: 'Dec',
+                                    y: [4100, 5600]
+                                }
+                            ]
+                        }
+                    ],
+                    options: {
+                        chart: {
+                            height: 350,
+                            type: 'rangeBar',
+                            zoom: {
+                                enabled: false
+                            }
+                        },
+                        plotOptions: {
+                            bar: {
+                                isDumbbell: false,
+                                columnWidth: 7,
+                                dumbbellColors: [['#4f2a8d', '#f12d6a']]
+                            }
+                        },
+                        legend: {
+                            show: true,
+                            showForSingleSeries: true,
+                            position: 'top',
+                            horizontalAlign: 'left',
+                            customLegendItems: ['Product A', 'Product B']
+                        },
+                        fill: {
+                            type: 'gradient',
+                            gradient: {
+                                type: 'vertical',
+                                gradientToColors: ['#f12d6a'],
+                                inverseColors: true,
+                                stops: [0, 100]
+                            }
+                        },
+                        grid: {
+                            xaxis: {
+                                lines: {
+                                    show: true
+                                }
+                            },
+                            yaxis: {
+                                lines: {
+                                    show: false
+                                }
+                            }
+                        },
+                        xaxis: {
+                            tickPlacement: 'on'
+                        }
+                    },
+
+
+                };
+            }
+
+
+
+            render() {
+                return (
+                    <div>
+                        <div id="chart">
+                            <ReactApexChart options={this.state.options} series={this.state.series} type="rangeBar" height={350} />
+                        </div>
+                        <div id="html-dist"></div>
+                    </div>
+                );
+            }
+        }
+
+        const domContainer = document.querySelector('#app');
+        ReactDOM.render(React.createElement(ApexChart), domContainer);
+    </script>
+
+    <script>
+        window.Promise ||
+            document.write(
+                '<script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"><\/script>'
+            )
+        window.Promise ||
+            document.write(
+                '<script src="https://cdn.jsdelivr.net/npm/eligrey-classlist-js-polyfill@1.2.20171210/classList.min.js"><\/script>'
+            )
+        window.Promise ||
+            document.write(
+                '<script src="https://cdn.jsdelivr.net/npm/findindex_polyfill_mdn"><\/script>'
+            )
+    </script>
+    <script>
+        // Replace Math.random() with a pseudo-random number generator to get reproducible results in e2e tests
+        // Based on https://gist.github.com/blixt/f17b47c62508be59987b
+        var _seed = 42;
+        Math.random = function () {
+            _seed = _seed * 16807 % 2147483647;
+            return (_seed - 1) / 2147483646;
+        };
+    </script>
+    <script type="text/babel">
+        class ApexChart extends React.Component {
+            constructor(props) {
+                super(props);
+
+                this.state = {
+
+                    series: [25, 68, 10],
+                    options: {
+                        chart: {
+                            width: 380,
+                            type: 'donut',
+                        },
+                        dataLabels: {
+                            enabled: false
+                        },
+                        responsive: [{
+                            breakpoint: 480,
+                            options: {
+                                chart: {
+                                    width: 200
+                                },
+                                legend: {
+                                    show: false
+                                }
+                            }
+                        }],
+                        legend: {
+                            position: 'right',
+                            offsetY: 0,
+                            height: 230,
+                        }
+                    },
+
+
+                };
+            }
+
+
+            appendData() {
+                var arr = this.state.series.slice()
+                arr.push(Math.floor(Math.random() * (100 - 1 + 1)) + 1)
+
+                this.setState({
+                    series: arr
+                })
+            }
+
+            removeData() {
+                if (this.state.series.length === 1) return
+
+                var arr = this.state.series.slice()
+                arr.pop()
+
+                this.setState({
+                    series: arr
+                })
+            }
+
+            randomize() {
+                this.setState({
+                    series: this.state.series.map(function () {
+                        return Math.floor(Math.random() * (100 - 1 + 1)) + 1
+                    })
+                })
+            }
+
+            reset() {
+                this.setState({
+                    series: [44, 55, 13, 33]
+                })
+            }
+
+
+            render() {
+                return (
+                    <div>
+                        <div>
+                            <div class="chart-wrap">
+                                <div id="chart">
+                                    <ReactApexChart options={this.state.options} series={this.state.series} type="donut" width={320} />
+                                </div>
+                            </div>
+
+                            <div class="actions">
+
+                            </div>
+                        </div>
+                        <div id="html-dist"></div>
+                    </div>
+                );
+            }
+        }
+
+        const domContainer = document.querySelector('#app1');
+        ReactDOM.render(React.createElement(ApexChart), domContainer);
+    </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://jscharting.com/JSC15/jscharting.js"></script>
+    <script>
+        $('#chartDiv').JSC({
+            mapping: {
+                referenceLayers: 'World',
+            },
+            type: 'map',
+            height: 330,
+            legendVisible: false,
+            chartArea: {
+                fill: '#FFFFFF'
+            },
+            defaultPointOutlineWidth: 0,
+            series: [{
+                defaultPoint: {
+                    color: '#693cb3'
+                },
+                map: 'Continent:North America'
+            }, {
+                defaultPoint: {
+                    color: '#693cb3'
+                },
+                map: 'Continent:South America'
+            }, {
+                defaultPoint: {
+                    color: '#693cb3'
+                },
+                map: 'Continent:Europe'
+            }, {
+                defaultPoint: {
+                    color: '#693cb3'
+                },
+                map: 'Continent:Asia'
+            }, {
+                defaultPoint: {
+                    color: '#693cb3'
+                },
+                map: 'Continent:Africa'
+            }, {
+                defaultPoint: {
+                    color: '#693cb3'
+                },
+                map: 'Continent:Oceania'
+            }],
+            toolbarVisible: false
+
+        })
+    </script>
+
+    <script type="text/babel">
+        class ApexChart extends React.Component {
+            constructor(props) {
+                super(props);
+
+                this.state = {
+
+                    series: [25, 65, 10],
+                    options: {
+                        chart: {
+                            width: 380,
+                            type: 'pie',
+                        },
+                        labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E'],
+                        responsive: [{
+                            breakpoint: 480,
+                            options: {
+                                chart: {
+                                    width: 200
+                                },
+                                legend: {
+                                    position: 'bottom'
+                                }
+                            }
+                        }]
+                    },
+
+
+                };
+            }
+
+
+
+            render() {
+                return (
+                    <div>
+                        <div id="chart">
+                            <ReactApexChart options={this.state.options} series={this.state.series} type="pie" width={370} />
+                        </div>
+                        <div id="html-dist"></div>
+                    </div>
+                );
+            }
+        }
+
+        const domContainer = document.querySelector('#app2');
+        ReactDOM.render(React.createElement(ApexChart), domContainer);
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(".profile .icon_wrap").click(function () {
+            $(this).parent().toggleClass("active");
+            $(".notifications").removeClass("active");
+        });
+
+        $(".notifications .icon_wrap").click(function () {
+            $(this).parent().toggleClass("active");
+            $(".profile").removeClass("active");
+        });
+
+        $(".show_all .link").click(function () {
+            $(".notifications").removeClass("active");
+            $(".popup").show();
+        });
+
+        $(".close, .shadow").click(function () {
+            $(".popup").hide();
+        });
+    </script>
+    
+   <!-- top button -->
+   <script>
+    // Get the button element and add a click event listener
+    const backToTopButton = document.getElementById('backToTopButton');
+    backToTopButton.addEventListener('click', () => {
+        // Smooth scroll to the top of the page
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+    
+    
+    </script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://jscharting.com/JSC15/jscharting.js"></script>
+<script>
+    $('#chartDiv').JSC({
+        mapping: {
+    referenceLayers: 'World',
+    projection: false
+  },
+  type: 'map',
+  height: 330,
+  legendVisible: false,
+  chartArea: {
+    fill: '#FFFFFF'
+  },
+  defaultPointOutlineWidth: 0,
+  series: [{
+    defaultPoint: {
+      color: '#693cb3'
+    },
+    map: 'Continent:North America'
+  }, {
+    defaultPoint: {
+      color: '#693cb3'
+    },
+    map: 'Continent:South America'
+  }, {
+    defaultPoint: {
+      color: '#693cb3'
+    },
+    map: 'Continent:Europe'
+  }, {
+    defaultPoint: {
+      color: '#693cb3'
+    },
+    map: 'Continent:Asia'
+  }, {
+    defaultPoint: {
+      color: '#693cb3'
+    },
+    map: 'Continent:Africa'
+  }, {
+    defaultPoint: {
+      color: '#693cb3'
+    },
+    map: 'Continent:Oceania'
+  }],
+  toolbarVisible: false
+
+})
+</script>
+</body>
+
+</html>

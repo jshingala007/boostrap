@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	box-sizing:border-box;
+}
+.container{
+	max-width:1140px;
+	margin:0 auto;
+}
+body{
+	background-color:#310658;
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+	flex-wrap:wrap-revers;
+}
+.box{
+	width:100px;
+	height:100px;
+	margin:20px;
+	background-color:#bcbcc4;
+}
+.container h1{
+	text-align:center;
+	background-color:white;
+	margin:10px;
+}
+.direction-row{
+	display:flex;
+	flex:direction-row;
+	flex-wrap:wrap;
+}
+.direction-row-reverse{
+	display:flex;
+	flex-direction:row-reverse;
+	flex-wrap:wrap;
+}
+.direction-row-column{
+	display:flex;
+	flex-direction:row-column;
+	flex-wrap:wrap;
+}
+

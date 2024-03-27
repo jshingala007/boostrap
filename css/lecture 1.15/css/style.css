@@ -1,0 +1,308 @@
+*{
+	margin:0;
+    box-sizing:border-box;
+}
+.container {
+  height:100%;
+  margin:0 auto;
+  padding:50px;
+  text-align:center;
+}
+.card{
+	width:400px;
+	height:150px;
+	background-color:#FFFFFF;
+	border-radius:0px;
+	margin:20px;
+	padding:50px 30px 30px 30px;
+	text-align:center;
+	color:black;
+	border:0.1px solid black;
+}
+h1{
+	text-align:center-left;
+	margin:2px 0;
+    position:relative;
+	display:inline-block;
+	float:left;
+}
+
+h1::after{
+	position:absolute;
+	width:40%;
+	height:4px;
+	background-color:black;
+	left:-1%;
+	color:red;
+	content:'';
+	right:-20px;
+	bottom:-15px;
+}
+h1::before{
+	position:absolute;
+	width:100%;
+	height:2px;
+	background-color:black;
+	left:35%;
+	color:black;
+	content:'';
+	right:-20px;
+	bottom:-15px;
+}
+
+.card1{
+	width:400px;
+	height:150px;
+	background-color:#FFFFFF;
+	border-radius:0px;
+	margin:20px;
+	padding:50px 30px 30px 30px;
+	text-align:center;
+	color:black;
+	border:0.1px solid black;
+}
+h2{
+	color:red;
+}
+h3{
+	color:grey;
+}
+
+h2{
+	text-align:center;
+	margin:2px 0;
+	padding:1px;
+    position:relative;
+	display:inline-block;
+	float:center;
+}
+
+h3{
+	text-align:center-left;
+	margin:2px 0;
+    position:relative;
+	display:inline-block;
+	float:center;
+}
+
+h3::after{
+	position:absolute;
+	width:30%;
+	height:4px;
+	background-color:gray;
+	left:15%;
+	color:red;
+	content:'';
+	right:-20px;
+	bottom:-15px;
+}
+h3::before{
+	position:absolute;
+	width:30%;
+	height:4px;
+	background-color:#F62817;
+	left:45%;
+	color:black;
+	content:'';
+	right:-20px;
+	bottom:-15px;
+}
+.after-before {
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    margin: 50px 20px 20px 60px;
+}
+
+h4 {
+    color: white;
+    margin: 20px auto;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h4::after {
+    position: absolute;
+    content: '';
+    width: 500px;
+    height: 5px;
+    bottom: 0;
+    background-color: black;
+
+
+}
+
+
+
+
+
+.style {
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    position: relative;
+    margin: 50px 0;
+
+}
+
+span::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 5px;
+    bottom: 5%;
+    left: 0;
+
+}
+.after-before1 {
+    width: 200px;
+    height: 50px;
+    background-color:crimson;
+    margin: 50px 20px 20px 60px;
+	
+}
+
+h5 {
+    color: white;
+    margin: 20px auto;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h5::after {
+    position: absolute;
+    content: '';
+    width: 500px;
+    height: 5px;
+    bottom: 0;
+    background-color: crimson;
+
+
+}
+
+
+
+
+
+.style {
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    position: relative;
+    margin: 50px 0;
+
+}
+
+span::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 5px;
+    bottom: 5%;
+    left: 0;
+  
+
+}
+
+
+
+
+.after-before2 {
+    width: 200px;
+    height: 50px;
+    background-color:deeppink;
+    margin: 50px 20px 20px 60px;
+}
+
+h6 {
+    color: white;
+    margin: 20px auto;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h6::after{
+    position: absolute;
+    content: '';
+    width: 500px;
+    height: 5px;
+    bottom: 0;
+    background-color:deeppink;
+
+
+}
+
+.style {
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    position: relative;
+    margin: 20px 0;
+
+}
+
+span::before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 5px;
+    bottom: 5%;
+    left: 0;
+  
+}
+
+
+
+
+
+.card2{
+	width:400px;
+	height:150px;
+	background-color:#FFFFFF;
+	border-radius:0px;
+	margin:20px;
+	padding:50px 30px 30px 30px;
+	text-align:center;
+	color:black;
+	border:0.1px solid black;
+}
+
+h7{
+	text-align:center-left;
+	margin:2px 0;
+    position:relative;
+	display:inline-block;
+	float:left;
+}
+
+h7::after{
+	position:absolute;
+	width:60%;
+	height:6px;
+	background-color:black;
+	left:15%;
+	color:red;
+	content:'';
+	left:90px;
+	bottom:-15px;
+}
+h7::before{
+	position:absolute;
+	width:100%;
+	height:2px;
+	background-color:black;
+	left:35%;
+	color:black;
+	content:'';
+	right:20px;
+	bottom:-15px;
+}

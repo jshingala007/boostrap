@@ -1,0 +1,152 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+
+}
+
+body{
+	background-color:#FFA600;
+}
+.container{
+	max-width:1140px;
+	margin:0 auto;
+	padding:50 px;
+	
+}
+.card{
+	max-width:400px;
+	background-color:white;
+	margin:90px 400px;
+	border-radius:15px;
+    padding:10px 0;
+    margin:70px 400px;
+	
+}
+
+
+.card-content{
+	text-align:center;
+	margin:50px 20px 0 0;
+	padding:10px 20px;
+		
+}
+.card-content p{
+	text-align:justify;
+
+}
+
+.card 	h1{
+	color:crimson;
+	text-align:center; 
+	padding:15px 0 0 0;
+	margin:0 25px 0 50px;
+	font-size:15px;
+}
+.card p{
+	  color:grey;
+	 font-size:12px;
+	text-align:justify;
+	text-indent:30px;
+
+}
+.card p:first-letter{
+	font-size:35px;
+	color:crimson;
+}
+
+.card-img img{
+	
+	width:175px;
+	height:140px;
+	line-height:70px;
+	text-align:center;
+	object-fit:cover;
+	overflow:hidden;
+	transition:1s;
+    border-radius:10px;
+	line-height:70px;
+	text-align:center;
+	border:50px;
+	position:absolute;
+	top:5px;
+	left:50%;
+	transform:translatex(-50%);
+    z-index:1;
+  box-shadow:-10px 10px 30px -10px;
+ 
+	
+}
+.card1{
+	width:340px;
+	height:327px;
+	background-color:white;
+	margin:-250px 50px 50px 150px ;
+	border-radius:15px;
+    padding:10px 0;
+  
+	
+}
+.card1-img img{
+	
+	width:175px;
+	height:140px;
+	line-height:70px;
+	text-align:center;
+	object-fit:cover;
+	overflow:hidden;
+	transition:1s;
+    border-radius:10px;
+	line-height:70px;
+	text-align:center;
+	border:50px;
+	position:absolute;
+	top:5px;
+	left:50%;
+	transform:translatex(-50%);
+    z-index:1;
+  box-shadow:-10px 10px 30px -10px;
+}
+
+.card2{
+	width:340px;
+	height:327px;
+	background-color:white;
+	margin:-380px 150px 50px -380px ;
+	border-radius:15px;
+    padding:10px 0;
+	float:right;
+  
+	
+}
+.card2-img img{
+	
+	width:175px;
+	height:140px;
+	line-height:70px;
+	text-align:center;
+	object-fit:cover;
+	overflow:hidden;
+	transition:1s;
+    border-radius:10px;
+	line-height:70px;
+	text-align:center;
+	border:50px;
+	position:absolute;
+	top:5px;
+	left:50%;
+	transform:translatex(-50%);
+    z-index:1;
+  box-shadow:-10px 10px 30px -10px;
+  
+}
+
+
+
+
+
+
+
+
+
+

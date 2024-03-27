@@ -1,0 +1,36 @@
+*{
+	margin:0;
+    box-sizing:border-box;
+}
+.container {
+  height:100%;
+  margin:0 auto;
+  padding:50px;
+  text-align:center;
+}
+.card{
+	width:400px;
+	height:300px;
+	background-color:#52595D;
+	border-radius:20px;
+	margin:20px;
+	padding:80px 30px 30px 30px;
+	text-align:center;
+	color:white;
+}
+
+.card p{
+	margin-top:20px;
+}
+
+.icon i{
+	width:60px;
+	height:60px;
+	background-color:white;
+	text-align:center;
+	float:left;
+	color:blue;
+	border-radius:100px;
+	margin:10px;
+	
+}

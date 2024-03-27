@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title> about page</title>
+</head>
+<body>
+     
+     <center>
+	 
+	 <a href = "about.html">about</a>
+	 <h1> DEFINATION OF HOSPITAL</h1>
+	
+	 <img src="img/hos.gif"height="500">
+	
+	 </center>
+	 <p>
+	    Hospitals have long existed in most countries. Developing countries, which contain a large proportion of the world’s population, generally do not have enough hospitals, equipment, and trained staff to handle the volume of persons who need care. Thus, people in these countries do not always receive the benefits of modern medicine, public health measures, or hospital care, and they generally have lower life expectancies.<br>
+	 <br>
+	 <br>
+	 In developed countries the hospital as an institution is complex, and it is made more so as modern technology increases the range of diagnostic capabilities and expands the possibilities for treatment. As a result of the greater range of services and the more-involved treatments and surgeries available, a more highly trained staff is required. A combination of medical research, engineering, and biotechnology has produced a vast array of new treatments and instrumentation, much of which requires specialized training and facilities for its use. Hospitals thus have become more expensive to operate, and health service managers are increasingly concerned with questions of quality, cost, effectiveness, and efficiency.
+	 
+	 
+
+
+
+
+
+
+
+
+	 </p>
+	 
+	    
+	 
+	 
+
+	 
+  </body>
+</html>  
